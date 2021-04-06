@@ -1,111 +1,349 @@
 {
-    "results": 
-        [
-			{
-				"id": 1,
-				"title": "Bolso Cartera Amapola",
-				"material": "Cuero",
-				"reference": "007",
-				"description": "Bolso tipo cartera con cierre de cremallera externo, con 4 bolsillos internos y 1 externo. División interna con bolsillo de cremallera. Manijas de 55 cm, incluye accesorio-fleco extraíble.",
-				"price": 130000,
-				"availability": "Disponible",
-				"size": "Grande",
-				"closing": "Con cierre",
-				"top": "Con tapa",
-				"cover": "Con forro",
-				"category": "Billeteras",
-				"subcategory": "Portadocumentos",
-				"updated": "2020-09-08 12:22",
-                "orientation": "Horizontal",
-                "gender": "Femenino",
-                "width": 50,
-                "hight": 80,
-                "depth": 30,
-				"recomendations": "Lavar a mano, secar al sol",
-				"pictures": [
-                    {
-                        "idPicture": 1,
-                        "img": "https://img2.freepng.es/20180413/waw/kisspng-handbag-computer-icons-vector-idea-5ad09f596f92d7.474295701523621721457.jpg",
-                        "colorPicture": "Negro",
-                        "codeColor": "#000000",
-                        "mainPicture": false
-                    },
-                    {
-                        "idPicture": 2,
-                        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/NYCS-bull-trans-F.svg/1200px-NYCS-bull-trans-F.svg.png",
-                        "colorPicture": "Negro",
-                        "codeColor": "#000000",
-                        "mainPicture": true
-                    },
-                    {
-                        "idPicture": 3,
-                        "img": "https://lh3.googleusercontent.com/proxy/zTDBhk6htsO2r5Q0xSAx6MbpN1eV9mcSMP7b_JGPSTm2Gr5oM7GlUyMlrcQFK48LWS1S1yIu0zpGvgKo5Ak4MJ9PoJ6ceatAhDBDGf8iuGrRgi84xGw",
-                        "colorPicture": "Blanco",
-                        "codeColor": "#FFFFFF",
-                        "mainPicture": false
-                    },
-					
-                    {
-                        "idPicture": 4,
-                        "img": "https://lh3.googleusercontent.com/proxy/u5W20uZM-Aa397KWtyyA4Eg_cR_Ys24PPL6QHMZkPJyAbJ4fe1QwAByKtBgynrxpgmVMXUjpsc-8BQofImY9FrtUt6nwW89zUfVslJnTZPizStMZkuk",
-                        "colorPicture": "Blanco",
-                        "codeColor": "#FFFFFF",
-                        "mainPicture": false
-                    },
-					
-                    {
-                        "idPicture": 5,
-                        "img": "https://lh3.googleusercontent.com/proxy/u5W20uZM-Aa397KWtyyA4Eg_cR_Ys24PPL6QHMZkPJyAbJ4fe1QwAByKtBgynrxpgmVMXUjpsc-8BQofImY9FrtUt6nwW89zUfVslJnTZPizStMZkuk",
-                        "colorPicture": "Vino",
-                        "codeColor": "#420000",
-                        "mainPicture": false
-                    }	
-                ]
+    "took": 734,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 33,
+            "relation": "eq"
+        },
+        "max_score": 1,
+        "hits": [
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "sBSnKHgBWC50pKZwk8fL",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "18",
+                    "DPTO_CNMBR": "CAQUETÁ"
+                }
             },
             {
-				"id": 2,
-				"title": "Bolso Cartera Amaranto",
-				"material": "Cuero",
-				"reference": "007",
-				"description": "Bolso tipo cartera con cierre de cremallera externo, con 4 bolsillos internos y 1 externo. División interna con bolsillo de cremallera. Manijas de 55 cm, incluye accesorio-fleco extraíble.",
-				"price": 150000,
-				"availability": "Disponible",
-				"size": "Grande",
-				"closing": "Con cierre",
-				"top": "Con tapa",
-				"cover": "Con forro",
-				"category": "Bolsos",
-				"subcategory": "Bolsos pequeños",
-		    	"updated": "2020-10-08 12:22",
-                "orientation": "Horizontal",
-                "gender": "Masculino",
-                "width": 50,
-                "hight": 80,
-                "depth": 30,
-				"recomendations": "Lavar a mano, secar al sol",
-								"pictures": [
-                    {
-                        "idPicture": 1,
-                        "img": "https://img2.freepng.es/20180723/ajb/kisspng-tote-bag-satchel-handbag-guess-jimmy-choo-5b5656ac7c6197.4666976715323849405095.jpg",
-                        "colorPicture": "Negro",
-                        "codeColor": "#000000",
-                        "mainPicture": true
-                    },
-                    {
-                        "idPicture": 2,
-                        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/NYCS-bull-trans-F.svg/1200px-NYCS-bull-trans-F.svg.png",
-                        "colorPicture": "Negro",
-                        "codeColor": "#000000",
-                        "mainPicture": false
-                    },
-                    {
-                        "idPicture": 3,
-                        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/NYCS-bull-trans-F.svg/1200px-NYCS-bull-trans-F.svg.png",
-                        "colorPicture": "Blanco",
-                        "codeColor": "#FFFFFF",
-                        "mainPicture": false
-                    }
-                ]
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "xBSnKHgBWC50pKZww8ev",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "23",
+                    "DPTO_CNMBR": "CÓRDOBA"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "xRSnKHgBWC50pKZww8ev",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "13",
+                    "DPTO_CNMBR": "BOLÍVAR"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "uxSnKHgBWC50pKZwsccQ",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "95",
+                    "DPTO_CNMBR": "GUAVIARE"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "vRSnKHgBWC50pKZwtMdE",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "17",
+                    "DPTO_CNMBR": "CALDAS"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "uhSnKHgBWC50pKZwq8e7",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "97",
+                    "DPTO_CNMBR": "VAUPÉS"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "tRSnKHgBWC50pKZwoMdz",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "94",
+                    "DPTO_CNMBR": "GUAINÍA"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "thSnKHgBWC50pKZwo8f9",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "99",
+                    "DPTO_CNMBR": "VICHADA"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "vhSnKHgBWC50pKZwtMdE",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "63",
+                    "DPTO_CNMBR": "QUINDIO"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "vxSnKHgBWC50pKZwt8cb",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "66",
+                    "DPTO_CNMBR": "RISARALDA"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "wBSnKHgBWC50pKZwt8cb",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "05",
+                    "DPTO_CNMBR": "ANTIOQUIA"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "txSnKHgBWC50pKZwo8f9",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "85",
+                    "DPTO_CNMBR": "CASANARE"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "uRSnKHgBWC50pKZwp8eq",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "91",
+                    "DPTO_CNMBR": "AMAZONAS"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "wRSnKHgBWC50pKZwu8eF",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "27",
+                    "DPTO_CNMBR": "CHOCÓ"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "xhSnKHgBWC50pKZwycd7",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "20",
+                    "DPTO_CNMBR": "CESAR"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "sxSnKHgBWC50pKZwnMfN",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "86",
+                    "DPTO_CNMBR": "PUTUMAYO"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "tBSnKHgBWC50pKZwnMfN",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "76",
+                    "DPTO_CNMBR": "VALLE DEL CAUCA"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "sRSnKHgBWC50pKZwmccz",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "19",
+                    "DPTO_CNMBR": "CAUCA"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "wxSnKHgBWC50pKZwv8f2",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "52",
+                    "DPTO_CNMBR": "NARIÑO"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "yBSnKHgBWC50pKZwzceU",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "44",
+                    "DPTO_CNMBR": "LA GUAJIRA"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "yRSnKHgBWC50pKZw0cfW",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "47",
+                    "DPTO_CNMBR": "MAGDALENA"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "zBSnKHgBWC50pKZw2Mef",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "70",
+                    "DPTO_CNMBR": "SUCRE"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "zRSnKHgBWC50pKZw2Mef",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "88",
+                    "DPTO_CNMBR": "ARCHIPIÉLAGO DE SAN ANDRÉS, PROVIDENCIA Y SANTA CATALINA"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "zhSnKHgBWC50pKZw3Mde",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "81",
+                    "DPTO_CNMBR": "ARAUCA"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "zxSnKHgBWC50pKZw3Mde",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "15",
+                    "DPTO_CNMBR": "BOYACÁ"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "0BSnKHgBWC50pKZw38e3",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "25",
+                    "DPTO_CNMBR": "CUNDINAMARCA"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "0hSnKHgBWC50pKZw48d3",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "54",
+                    "DPTO_CNMBR": "NORTE DE SANTANDER"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "0xSnKHgBWC50pKZw48d3",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "11",
+                    "DPTO_CNMBR": "BOGOTÁ, D.C."
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "1BSnKHgBWC50pKZw58eH",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "50",
+                    "DPTO_CNMBR": "META"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "1RSnKHgBWC50pKZw58eH",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "41",
+                    "DPTO_CNMBR": "HUILA"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "1hSnKHgBWC50pKZw6se6",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "68",
+                    "DPTO_CNMBR": "SANTANDER"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "1xSnKHgBWC50pKZw6se6",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "73",
+                    "DPTO_CNMBR": "TOLIMA"
+                }
+            },
+            {
+                "_index": "departamento",
+                "_type": "_doc",
+                "_id": "2RSnKHgBWC50pKZw7sc0",
+                "_score": 1,
+                "_source": {
+                    "DPTO_CCDGO": "08",
+                    "DPTO_CNMBR": "ATLÁNTICO"
+                }
             }
-	    ]
+        ]
+    }
 }
